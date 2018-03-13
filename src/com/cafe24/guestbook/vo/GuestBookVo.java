@@ -27,7 +27,6 @@ public class GuestBookVo {
 		return password;
 	}
 	public void setPassword(String password) {
-		password.replace("\n", "<br/>");
 		this.password = password;
 	}
 	public String getContent() {
